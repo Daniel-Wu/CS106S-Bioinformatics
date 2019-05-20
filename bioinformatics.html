@@ -15,8 +15,8 @@
     <script type="text/javascript" src="data/genes.json"></script>
     <script type="text/javascript" src="data/labels.json"></script>
     <script src="scripts/jsregression.js"></script>
-    <script src="scripts/safe-maps-solution.js"></script>
-    <link rel="stylesheet" type="text/css" href="safe-maps.css" />
+    <script src="scripts/bioinformatics-solution.js"></script>
+    <link rel="stylesheet" type="text/css" href="bioinformatics.css" />
 
 </head>
 	<body onload="initialize()" style="font-family: sans-serif;" background="w3s.png">
@@ -27,9 +27,9 @@
 		</div>
 
 		<div id="app">
-			<input type="button" value="Calculate associations!" onclick="calcRoute(true)" />
-			<input type="button" value="Reset" onclick="reset()" />
-			<p> Correlation Table: <p id="currScore">None</p></p>
+			<input type="button" value="Calculate associations!" onclick="calcAssoc()" />
+			<input type="button" value="Debug" onclick="debug()" />
+			<p> Correlation Table: <p id="output_box">None</p></p>
 		<br>
 		<br>
 		<br>
